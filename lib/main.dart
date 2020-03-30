@@ -88,7 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Image.network(
-                    "https://ui-avatars.com/api/?name=Nweze+Uzoamaka&rounded=true&background=000000&color=fff&size=180",
+                    "https://avatars0.githubusercontent.com/u/60669974?s=400&v=4",
                     fit: BoxFit.cover,
                   ),
                 ),
