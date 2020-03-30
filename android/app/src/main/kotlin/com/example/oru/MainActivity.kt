@@ -1,4 +1,4 @@
-package com.example.oru
+package com.example.uzoamaka
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

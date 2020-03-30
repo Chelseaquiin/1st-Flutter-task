@@ -83,14 +83,12 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
               CircleAvatar(
-                minRadius: 60,
-                backgroundColor: Colors.deepPurple,
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Image.network(
-                    "https://avatars0.githubusercontent.com/u/60669974?s=400&v=4",
-                    fit: BoxFit.cover,
-                  ),
+                radius: 75,
+                              child: CircleAvatar(
+                  minRadius: 73,
+                  maxRadius: 73,
+                  backgroundColor: Colors.deepPurple,
+                  backgroundImage: NetworkImage("https://avatars0.githubusercontent.com/u/60669974?s=200&v=4"),
                 ),
               ),
               SizedBox(
